@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="327dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="200dp"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:layout_centerInParent="true"
+        android:text="@string/activity_1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="168dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="206dp"
+        android:text="@string/open_activity_2" />
+    android:id="@+id/Next"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content" />
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+
+</RelativeLayout>
